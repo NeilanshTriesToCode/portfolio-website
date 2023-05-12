@@ -12,7 +12,7 @@ const Navbar = () => {
                 </a>
             </a>
 
-            <nav className='ml-auto'>
+            <nav className='flex flex-col flex-wrap md:flex-row md:ml-auto'>
                 <a href="#about" className="ml-5 text-xl">
                 About
                 </a>
