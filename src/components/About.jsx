@@ -11,11 +11,12 @@ const About = () => {
             <h1 className='mb-4 title-font font-medium text-white text-4xl md:text-5xl'>
               Hola, <br /> I'm Neilansh
             </h1>
-            <p className="mb-8 text-xl leading-relaxed">
-            Originally from Ahmedabad, India, I'm a Computer Science graduate at UBC Okanagan, Canada. This is my portfolio website. 
-            Follow along to know more about me! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+            <p className="mb-8 text-xl md:text-2xl leading-relaxed">
+            Originally from <span className='text-white font-medium'>Ahmedabad, India,</span> I'm a Computer Science graduate at 
+             <span className='text-white font-medium'> UBC Okanagan, Canada.</span> As a budding developer, I'm interested in 
+             <span className='text-white font-medium'> web, frontend </span>development 
+            and like creating <span className='text-white font-medium'> dynamic and scalable UIs.</span>
+            <br />This is my portfolio. Follow along to know more about me!
             </p>
           </div>
 
