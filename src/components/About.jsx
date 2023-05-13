@@ -11,7 +11,7 @@ const About = () => {
             <h1 className='mb-4 title-font font-medium text-white text-4xl md:text-5xl'>
               Hola, <br /> I'm Neilansh
             </h1>
-            <p className="mb-8 text-xl md:text-2xl leading-relaxed">
+            <p className="text-xl leading-relaxed text-left md:text-2xl ">
             Originally from <span className='text-white font-medium'>Ahmedabad, India,</span> I'm a Computer Science graduate at 
              <span className='text-white font-medium'> UBC Okanagan, Canada.</span> As a budding developer, I'm interested in 
              <span className='text-white font-medium'> web, frontend </span>development 
