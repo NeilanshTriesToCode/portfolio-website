@@ -1,5 +1,3 @@
-import React from "react";
-
 import About from './components/About';
 import Hobbies from "./components/Hobbies";
 import Skills from "./components/Skills";
@@ -8,9 +6,9 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 
-export default function App() {
+function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-400 bg-slate-900 body-font">
       <Navbar />
       <About />
       <Hobbies />
@@ -19,5 +17,8 @@ export default function App() {
       <Experience />
       <Contact />
     </main>
-  );
+    
+  )
 }
+
+export default App
