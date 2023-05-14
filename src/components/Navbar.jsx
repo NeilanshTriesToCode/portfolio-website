@@ -6,10 +6,8 @@ const Navbar = () => {
   return (
     <header className='top-0 z-30 bg-slate-800 border-b border-slate-600 md:sticky  '>
         <div className='mx-auto p-5 container flex flex-col flex-wrap md:flex-row items-center'>
-            <a className="title-font font-medium text-white mb-4 md:mb-0">
-                <a href="#about" className="ml-3 text-xl">
-                Neilansh Rajpal
-                </a>
+            <a href="#about" className="title-font font-medium text-white mb-4 text-xl md:mb-0">
+              NR
             </a>
 
             <nav className='flex flex-col flex-wrap md:flex-row md:ml-auto'>
