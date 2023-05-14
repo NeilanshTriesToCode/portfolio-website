@@ -24,11 +24,11 @@ const Projects = () => {
         <div className='w-5/6 grid gap-9 grid-cols-2'>
           { 
             projects.map((project) => (
-              <a href={project.link} key={project.image} className="">
+              <a href={project.link} key={project.image} className="max-h-min">
                 <div className="flex relative ">
-                  <img alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src={project.image}/>
+                  <img alt="gallery" className="object-cover absolute inset-0 w-full h-full" src={project.image}/>
 
-                  <div className='px-8 py-20 relative h-full w-full z-10 bg-slate-800 opacity-0 hover:opacity-100 flex flex-col items-center text-center'>
+                  <div className='px-8 py-20 relative z-10 bg-slate-800 opacity-0 flex flex-col text-left  hover:opacity-100 hover:border hover:border-slate-700'>
                     <h2 className='mb-4 title-font font-medium text-white text-xl'>{project.name}</h2>
                     <h4 className="text-lg text-green-500 mb-4">{project.stack}</h4>
                     <p className="leading-relaxed">{project.description}</p>
