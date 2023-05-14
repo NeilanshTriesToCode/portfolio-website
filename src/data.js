@@ -17,38 +17,34 @@ export const projects = [
   {
     id: "sportMateApp",
     name: "SportMate",
-    subtitle: "ReactJS, firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    stack: "ReactJS, firebase",
+    description: "ReactJS web app based on a sports idea. Work in progress. Stay tuned!",
+    image: "./sportMate.png",
+    link: "https://github.com/NeilanshTriesToCode/sportMate",
   },
   {
     id: "equiFoodApp",
     name: "EquiFood App",
-    subtitle: "Flutter, firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    stack: "Flutter, firebase",
+    description: "Capstone Project. Developed a mobile app for restaurants to sell leftover food as 'donations' at a discounted price to reduce food wastage.",
+    image: "./EquiFoodApp.png",
+    link: "https://github.com/COSC-499-EquiFood-B/EquiFoodApp-B",
   },
   {
     id: "shoppingCart",
     name: "React Shopping-Cart",
-    subtitle: "ReactJS",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    stack: "ReactJS",
+    description: "A shopping cart app that allows users to browse through products/categories, apply filters, add/remove/edit items in the cart. Employs complex React hooks such as useReducer and useContext.",
+    image: "./shopping-cart.gif",
+    link: "https://tinyurl.com/React-Shopping-Cart",
   },
   {
     id: "chatApp",
     name: "Web Chat App",
-    subtitle: "ReactJS, firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    stack: "ReactJS, firebase",
+    description: "Web Chat App made as part of Internshala's ReactJS course. Allows users to sign up/in, create chat rooms, send messages, edit avatars.",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://tinyurl.com/React-Chat-App",
   },
 ];
 

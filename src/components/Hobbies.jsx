@@ -9,8 +9,8 @@ const Hobbies = () => {
   return (
     <section id='hobbies'>
       <div className='mx-auto px-10 py-20 container flex flex-col items-center md:flex-row xl:flex-col '>
-        <div className='mb-16 flex flex-col items-center text-left  sm:text-center  md:pr-16 t md:mb-0 md:w-1/2  lg:flex-grow lg:pr-24 '>
-          <GiSoccerBall size={50} color='white' className='mb-4'/>
+        <div className='mb-16 flex flex-col items-center text-center  md:mb-0 md:pr-24 md:w-1/2  lg:flex-grow  xl:pr-0'>
+          <GiSoccerBall size={50} color='white' className='mx-auto mb-4'/>
           <h1 className='mb-4 title-font font-medium text-white text-4xl'>
             Interests & Hobbies
           </h1>
@@ -20,7 +20,7 @@ const Hobbies = () => {
         
         </div>
 
-        <div className='w-3/4  text-left  md:w-1/2  lg:max-w-lg lg:w-full'>
+        <div className='w-3/4  mx-auto text-left  md:w-1/2  lg:max-w-lg lg:w-full'>
           <ul className="text-xl list-disc ">
             <li className='pb-2'>A big sports aficionado, loves all things <span className='text-white font-semibold'> Football.</span></li>
             <li className='pb-2'>A fitness freak; probably at the gym if not home.</li>
