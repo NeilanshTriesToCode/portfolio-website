@@ -24,7 +24,8 @@ const Hobbies = () => {
           <ul className="text-xl list-disc ">
             <li className='pb-2'>A big sports aficionado, loves all things <span className='text-white font-semibold'> Football.</span></li>
             <li className='pb-2'>A fitness freak; probably at the gym if not home.</li>
-            <li className='pb-2'><span className='text-white font-semibold'>House music</span> enthusiast. Part-time <span className='text-white font-semibold'>bedroom DJ.</span></li>
+            <li className='pb-2'><span className='text-white font-semibold'>House music</span> enthusiast. 
+             Part-time <a href='https://www.mixcloud.com/Neilansh/' className='text-cyan-500 font-semibold hover:font-bold'>bedroom DJ.</a></li>
             <li className='pb-2'>Often gets lost in deep thoughts about the <span className='text-white font-semibold'>Cosmos.</span></li>
             <li className='pb-2'><span className='text-white font-semibold'>Polyglot.</span> <span className='italic'>Bueno, me gusta aprender nuevos idiomas.</span></li>
           </ul>
