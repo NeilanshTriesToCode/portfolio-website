@@ -18,7 +18,7 @@ export const projects = [
     id: "sportMateApp",
     name: "SportMate",
     stack: "ReactJS, firebase",
-    description: "ReactJS web app based on an innovative, sports-related idea. Using the react-bootstrap for built-in components and bootstrap/SASS for styles. Work in progress, stay tuned!",
+    description: "ReactJS web app based on an innovative, sports-related idea. Using react-bootstrap for built-in components and bootstrap/SASS for styles. Work in progress, stay tuned!",
     image: "./sportmate-app.png",
     link: "https://github.com/NeilanshTriesToCode/sportMate",
   },
