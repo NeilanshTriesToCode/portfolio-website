@@ -1,4 +1,4 @@
-// file to contain Projects, Skills and Work experience to be read in the Project and Skill Components respectively.
+// file to contain Projects, Skills, and Work experience to be read in the Project and Skill Components respectively.
 
 // skills
 export const skills = [
@@ -78,5 +78,5 @@ export const experience = [
       'Attended daily meetings with the supervisor to discuss the project, suggest ideas and receive feedback.',
     ]
   }
-]
+];
 
