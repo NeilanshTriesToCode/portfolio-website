@@ -19,7 +19,7 @@ const Contact = () => {
           Contact
           </h1>
           <p className="mb-8 text-lg leading-relaxed">
-          Something to discuss? Let's get in touch!
+          Something to discuss? Let's connect!
           </p>
         </div>
 
