@@ -54,6 +54,7 @@ export const experience = [
     id: 'ltr',
     title: 'Learning Technologies Rover (LTR)',
     company: 'Centre for Teaching and Learning, UBC Okanagan',
+    link: 'https://ctl.ok.ubc.ca/',
     location: 'Kelowna, BC, Canada',
     date: 'January 2022 - April 2022',
     description: [
@@ -67,6 +68,7 @@ export const experience = [
     id: 'fsdi',
     title: 'Full Stack Developer Intern',
     company: 'VisionBox Inc.',
+    link: 'https://www.visionbox.ai/',
     location: 'Burnaby, BC, Canada',
     date: 'September 2021 - December 2021',
     description: [

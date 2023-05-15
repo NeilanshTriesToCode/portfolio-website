@@ -27,7 +27,7 @@ const Experience = () => {
             experience.map((data) => (
               <div id={data.id} className='p-4 bg-slate-800 border border-slate-700 rounded-md '>
                 <h2 className='title-font font-medium text-white text-xl'>{data.title}</h2>
-                <h4 className="text-lg text-sky-500">{data.company}</h4>
+                <a href={data.link} className="text-lg text-cyan-500 font-semibold hover:font-bold">{data.company}</a>
                 <h4 className="text-lg mb-2">{data.location} <span>({data.date})</span></h4>
                 <ul className="text-md list-disc">
                 {
