@@ -72,7 +72,7 @@ export const experience = [
     location: 'Burnaby, BC, Canada',
     date: 'September 2021 - December 2021',
     description: [
-      'Interned as Full Stack Developer Intern at a startup.',
+      'Interned as Full Stack Developer at a startup.',
       'Helped develop the frontend user interface for a desktop app.',
       'Used ReactJS and frameworks such as tailwindCSS, Rsuite for a better user experience.',
       'Attended daily meetings with the supervisor to discuss the project, suggest ideas and receive feedback.',
