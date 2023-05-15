@@ -21,7 +21,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className='w-5/6 grid gap-9 grid-cols-1  lg:grid-cols-2'>
+        <div className='mt-4 w-5/6 grid gap-9 grid-cols-1  lg:grid-cols-2'>
           { 
             projects.map((project) => (
               <a href={project.link} key={project.image} className="">
@@ -31,7 +31,7 @@ const Projects = () => {
                   <div className='h-5/6 px-8 py-20 relative z-10 bg-slate-800 opacity-0 flex flex-col text-left  hover:opacity-100 hover:border hover:border-slate-700'>
                     <h2 className='mb-4 title-font font-medium text-white text-xl'>{project.name}</h2>
                     <h4 className="text-lg text-green-500 mb-4">{project.stack}</h4>
-                    {<p className="leading-relaxed">{project.description}</p>}
+                    <p className="leading-relaxed">{project.description}</p>
 
                   </div>
                 </div>

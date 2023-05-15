@@ -3,8 +3,8 @@
 // skills
 export const skills = [
   "JavaScript",
-  "HTML/CSS",
-  "SASS",
+  "HTML",
+  "CSS/SASS",
   "ReactJS",
   "Flutter",
   "git/GitHub",
@@ -26,7 +26,7 @@ export const projects = [
     id: "equiFoodApp",
     name: "EquiFood App",
     stack: "Flutter, firebase",
-    description: "Capstone Project. Developed a mobile app for restaurants to sell leftover food as 'donations' at a discounted price to reduce food wastage. Has 3 different user types. Features a minimalistic UI.",
+    description: "Capstone Project. As a group, developed a mobile app for restaurants to sell leftover food as 'donations' at discounted prices to reduce food wastage. Has 3 different user types. Features a minimalistic UI.",
     image: "./equifood-app.png",
     link: "https://github.com/COSC-499-EquiFood-B/EquiFoodApp-B",
   },
