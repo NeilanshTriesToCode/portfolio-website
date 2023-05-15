@@ -21,7 +21,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className='mt-4 w-5/6 grid gap-9 grid-cols-1  lg:grid-cols-2'>
+        <div className='mt-4 w-5/6 grid gap-9 grid-cols-1  xl:grid-cols-2'>
           { 
             projects.map((project) => (
               <a href={project.link} key={project.image} className="">

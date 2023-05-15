@@ -55,10 +55,10 @@ const Skills = () => {
 
         <div className='mt-4 w-5/6 grid gap-9 grid-cols-2'>
           {
-            skillsAndIcons.map((item) => (
+            skillsAndIcons.map((data) => (
               <div className='flex flex-row items-center bg-slate-800 border border-slate-700 rounded-md '>
-                {item.icon}
-                <p className="font-light text-2xl text-white leading-relaxed p-2">{item.skill}</p>
+                {data.icon}
+                <p className="font-light text-2xl text-white leading-relaxed p-2">{data.skill}</p>
               </div>
             ))
 

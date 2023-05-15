@@ -1,4 +1,4 @@
-// file to contain Projects and Skills to be read in the Project and Skill Components respectively.
+// file to contain Projects, Skills and Work experience to be read in the Project and Skill Components respectively.
 
 // skills
 export const skills = [
@@ -47,4 +47,34 @@ export const projects = [
     link: "https://tinyurl.com/React-Chat-App",
   },
 ];
+
+// work experience
+export const experience = [
+  {
+    id: 'ltr',
+    title: 'Learning Technologies Rover (LTR)',
+    company: 'Centre for Teaching and Learning, UBC Okanagan',
+    location: 'Kelowna, BC, Canada',
+    date: 'January 2022 - April 2022',
+    description: [
+      'Interned as Learning Technologies Rover under the co-op program.',
+      'Assisted faculty members with using and troublshooting Learning Technologies used at the university.',
+      'Provided 1-to-1 support in-person, on call via Zoom or phone, or ServiceNow ticketing system.',
+      'Helped instructors ensure smooth delivery of lectures and course materials.',
+    ]
+  },
+  {
+    id: 'fsdi',
+    title: 'Full Stack Developer Intern',
+    company: 'VisionBox Inc.',
+    location: 'Burnaby, BC, Canada',
+    date: 'September 2021 - December 2021',
+    description: [
+      'Interned as Full Stack Developer Intern at a startup.',
+      'Helped develop the frontend user interface for a desktop app.',
+      'Used ReactJS and frameworks such as tailwindCSS, Rsuite for a better user experience.',
+      'Attended daily meetings with the supervisor to discuss the project, suggest ideas and receive feedback.',
+    ]
+  }
+]
 
