@@ -11,27 +11,15 @@ const Navbar = () => {
             </a>
 
             <nav className='flex flex-col flex-wrap md:flex-row md:ml-auto'>
-                <a href="#about" className="ml-5 hover:text-white">
+                <a href="#about" className="ml-12 hover:text-white">
                 About
                 </a>
 
-                <a href="#hobbies" className="ml-5 hover:text-white">
-                Hobbies
-                </a>
-
-                <a href="#skills" className="ml-5 hover:text-white">
-                Skills
-                </a>
-
-                <a href="#projects" className="ml-5 hover:text-white">
+                <a href="#projects" className="ml-12 hover:text-white">
                 Projects
                 </a>
 
-                <a href="#experience" className="ml-5 hover:text-white">
-                Experience
-                </a>
-
-                <a href="#contact" className="mx-5 hover:text-white">
+                <a href="#contact" className="mx-12 hover:text-white">
                 Contact
                 </a>
             </nav>

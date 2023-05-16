@@ -18,7 +18,8 @@ const Experience = () => {
             </h1>
             <p className="mb-8 text-lg leading-relaxed">
             I also had the opportunity to gain some professional experience during my studies.
-            I enrolled in the Co-op program and got the chance to hone my skills and also develop new ones.
+            I enrolled in the Co-op program to develop some skills and get some 
+            experience under the belt.
             </p>
           </div>
 
@@ -32,7 +33,7 @@ const Experience = () => {
                 <ul className="text-md list-disc ml-4">
                 {
                   data.description.map((task) => (
-                    <li className='leading-relaxed '>{task}</li>
+                    <li className='leading-relaxed'>{task}</li>
                   ))
                 }
                 </ul>
