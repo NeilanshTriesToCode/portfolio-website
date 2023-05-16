@@ -11,7 +11,7 @@ const Experience = () => {
   return (
     <section id='experience'>
       <div className='mx-auto px-10 py-20 container flex flex-col items-center '>
-          <div className='mb-4 flex flex-col items-center text-center  md:mb-0 md:w-1/2   lg:flex-grow  xl:pr-0'>
+          <div className='mb-4 flex flex-col items-center text-center  md:mb-0 md:w-5/6 lg:w-2/3   lg:flex-grow  xl:pr-0'>
             <FaSuitcase size={50} color='white' className='mx-auto mb-4'/>
             <h1 className='mb-4 title-font font-medium text-white text-4xl'>
             Experience
@@ -29,10 +29,10 @@ const Experience = () => {
                 <h2 className='title-font font-medium text-white text-xl'>{data.title}</h2>
                 <a href={data.link} className="text-lg text-cyan-500 font-semibold hover:font-bold">{data.company}</a>
                 <h4 className="text-lg mb-2">{data.location} <span>({data.date})</span></h4>
-                <ul className="text-md list-disc">
+                <ul className="text-md list-disc ml-4">
                 {
                   data.description.map((task) => (
-                    <li className='ml-2 leading-relaxed'>{task}</li>
+                    <li className='leading-relaxed '>{task}</li>
                   ))
                 }
                 </ul>
