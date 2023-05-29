@@ -51,7 +51,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className='w-3/4 grid gap-9 grid-cols-2'>
+        <div className='w-3/4 grid gap-6 sm:gap-9 sm:grid-cols-2'>
           {
             skillsAndIcons.map((data) => (
               <div className='flex flex-row items-center  bg-slate-800 border border-slate-700 rounded-md '>

@@ -24,9 +24,15 @@ const Contact = () => {
         </div>
 
         <div className='w-full flex flex-col  lg:w-5/6'>
-          <div className='p-2 flex flex-row mx-auto'>
-            <MdLocationOn size={27} color='white' className='mr-1' /> 
-            <p className='font-light text-xl text-white  '>Kelowna, BC, Canada | Ahmedabad, India</p>
+          <div className='p-2 flex flex-row mx-auto content-center'>
+            <div className='flex place-items-center'>            
+              <MdLocationOn size={27} color='white' className='mr-2' /> 
+            </div>
+
+            <div className='font-light text-xl text-white md:flex md:flex-row'>
+              <p>Kelowna, BC, Canada |&nbsp;</p>
+              <p>Ahmedabad, India</p>
+            </div>
           </div>
 
           <div className='p-2 flex flex-row mx-auto'>
