@@ -31,6 +31,7 @@ const Skills = () => {
   // combine skills and icons into a common array, called skillsAndIcons
   skills.forEach((element, index) => {
     skillsAndIcons[index] = {
+      id: `${skills[index]} + ${index}`,
       skill: skills[index],
       icon: icons[index]
     }
@@ -54,7 +55,7 @@ const Skills = () => {
         <div className='w-3/4 grid gap-6 sm:gap-9 sm:grid-cols-2'>
           {
             skillsAndIcons.map((data) => (
-              <div className='flex flex-row items-center  bg-slate-800 border border-slate-700 rounded-md '>
+              <div key={data.id} className='flex flex-row items-center  bg-slate-800 border border-slate-700 rounded-md '>
                 {data.icon}
                 <p className="font-light text-2xl text-white leading-relaxed p-2 mx-auto sm:mx-0">{data.skill}</p>
               </div>
