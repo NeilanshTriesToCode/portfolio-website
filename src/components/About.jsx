@@ -21,7 +21,7 @@ const About = () => {
           </div>
 
           <div className='w-5/6 flex justify-center  md:w-1/2  lg:max-w-lg lg:w-full'>
-            <img src='profile.jpg' alt='profile image' className='h-96 w-80 rounded-full ring-2 ring-slate-600'/>
+            <img src='profile.jpg' alt='profile image' className='h-80 w-72 rounded-full ring-2 ring-slate-600 sm:h-96 sm:w-80'/>
           </div>
     
         </div>

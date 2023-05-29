@@ -20,7 +20,7 @@ const Hobbies = () => {
         
         </div>
 
-        <div className='w-5/6  text-left    lg:max-w-lg lg:w-full'>
+        <div className='w-11/12  text-left  sm:w-5/6  lg:max-w-lg lg:w-full'>
           <ul className="text-xl list-disc list-inside">
             <li className='pb-2'>A big sports aficionado, loves all things <span className='text-white font-semibold'> Football.</span></li>
             <li className='pb-2'>A fitness freak; probably at the gym if not home.</li>
