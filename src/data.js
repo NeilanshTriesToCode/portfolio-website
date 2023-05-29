@@ -67,7 +67,7 @@ export const experience = [
   {
     id: 'fsdi',
     title: 'Full Stack Developer Intern',
-    company: 'VisionBox Inc.',
+    company: 'VisionBox AI',
     link: 'https://www.visionbox.ai/',
     location: 'Burnaby, BC, Canada',
     date: 'September 2021 - December 2021',
