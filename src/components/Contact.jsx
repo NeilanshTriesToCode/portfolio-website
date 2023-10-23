@@ -30,14 +30,14 @@ const Contact = () => {
             </div>
 
             <div className='font-light text-xl text-white md:flex md:flex-row'>
-              <p>Kelowna, BC, Canada |&nbsp;</p>
-              <p>Ahmedabad, India</p>
+              <p>Ahmedabad, India |&nbsp;</p>
+              <p>Kelowna, BC, Canada</p>
             </div>
           </div>
 
           <div className='p-2 flex flex-row mx-auto'>
             <BsFillTelephoneFill size={25} color='white' className='mr-2' /> 
-            <p className='font-light text-xl text-white'>+1 250-859-7069</p>
+            <p className='font-light text-xl text-white'>+91 8866316544</p>
           </div>
 
           <div className='p-2 flex flex-row mx-auto'>
