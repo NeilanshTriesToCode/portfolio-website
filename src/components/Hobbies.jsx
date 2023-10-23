@@ -26,7 +26,7 @@ const Hobbies = () => {
             <li className='pb-2'>A fitness freak; probably at the gym if not home.</li>
             <li className='pb-2'><span className='text-white font-semibold'>House music</span> enthusiast. 
              Part-time <a href='https://www.mixcloud.com/Neilansh/' className='text-cyan-500 font-semibold underline underline-offset-4 hover:font-bold sm:no-underline'>bedroom DJ.</a></li>
-            <li className='pb-2'>Often gets lost in deep thoughts about the <span className='text-white font-semibold'>Cosmos.</span></li>
+            <li className='pb-2'>Frequently immerses in profound contemplation of the <span className='text-white font-semibold'>Cosmos.</span></li>
             <li className='pb-2'><span className='text-white font-semibold'>Polyglot.</span> <span title='Well, I like learning new languages.' className='italic font-semibold hover:font-bold'>Bueno, me gusta aprender nuevos idiomas.</span></li>
           </ul>
         </div>
