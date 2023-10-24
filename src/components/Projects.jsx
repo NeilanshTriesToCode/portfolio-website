@@ -16,8 +16,9 @@ const Projects = () => {
           Projects
           </h1>
           <p className="mb-8 text-lg leading-relaxed">
-          I have had the opportunity to apply my skills to projects. While I had fun collaborating with my peers on academic projects, 
-          I have also learned a lot by working on side projects.
+          I've had the chance to put my skills into action on various projects. 
+          While collaborating with peers on academic projects was enjoyable, 
+          I've equally gained valuable insights through my involvement in side projects.
           </p>
         </div>
 

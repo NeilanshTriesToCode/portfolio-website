@@ -17,9 +17,8 @@ const Experience = () => {
             Experience
             </h1>
             <p className="mb-8 text-lg leading-relaxed">
-            I also had the opportunity to gain some professional experience during my studies.
-            I enrolled in the Co-op program to develop some skills and get some 
-            experience under the belt.
+            I also had the opportunity to gain professional experience during my academic journey. 
+            I participated in the Co-op program to acquire valuable skills and practical experience.
             </p>
           </div>
 
