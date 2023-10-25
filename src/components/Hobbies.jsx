@@ -7,7 +7,7 @@ import {BiDumbbell} from 'react-icons/bi';
 
 const Hobbies = () => {
   return (
-    <section id='hobbies'>
+    <section id='hobbies' className='opacity-100 blur-sm'>
       <div className='mx-auto px-10 py-20 container flex flex-col items-center '>
         <div className='mb-4 flex flex-col items-center text-center  md:mb-0  lg:w-1/2  lg:flex-grow  xl:pr-0'>
           <GiSoccerBall size={50} color='white' className='mx-auto mb-4'/>

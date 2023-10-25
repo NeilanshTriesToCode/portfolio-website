@@ -27,12 +27,12 @@ function App() {
           // check if an element is currently on the viewport or not
           if(entry.isIntersecting){
             // add class to reduce opacity to 0 and unblur the element
-            entry.target.classList.add('opacity-0 blur-none');
+            entry.target.classList.add('opacity-0');
           }
           else{
             // remove the class if the element is out of focus
             // i.e., entry.isIntersecting = false
-            entry.target.classList.remove('opacity-0 blur-none');
+            entry.target.classList.remove('opacity-0');
           }
         });
     });
@@ -41,10 +41,11 @@ function App() {
     since each piece of content (About, Hobbies, Skills, etc.) is enclosed within a <Section> element,
     use <Section> for the attribute selector
   */
-  const content = document.getElementsByTagName('section');
-    
+  const contents = document.querySelectorAll('section');
+  console.log(typeof(contents))
+
   // using the observer object
-  observer.observe(content);
+  contents.forEach(content => observer.observe(content));
 
   // cleanup function for useEffect()
   return () => {

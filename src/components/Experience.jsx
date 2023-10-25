@@ -25,14 +25,14 @@ const Experience = () => {
           <div className='mt-4 w-5/6 grid gap-9 grid-cols-1  xl:grid-cols-2'>
            {
             experience.map((data) => (
-              <div id={data.id} className='p-4 bg-slate-800 border border-slate-700 rounded-md '>
+              <div key={data.id} className='p-4 bg-slate-800 border border-slate-700 rounded-md '>
                 <h2 className='title-font font-medium text-white text-xl'>{data.title}</h2>
                 <a href={data.link} className="text-lg text-cyan-500 font-semibold underline underline-offset-4 hover:font-bold sm:no-underline">{data.company}</a>
                 <h4 className="text-lg mb-2">{data.location} <span>({data.date})</span></h4>
                 <ul className="text-md list-disc ml-4">
                 {
-                  data.description.map((task) => (
-                    <li className='leading-relaxed'>{task}</li>
+                  data.description.map((task, i) => (
+                    <li key={`${task} ${i}`} className='leading-relaxed'>{task}</li>
                   ))
                 }
                 </ul>
