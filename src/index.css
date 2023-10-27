@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.hide-content {
+  //transition: all 1s;
+  //opacity: 0;
+  filter: blur(15px);
+  //transform: translateX(-100%);
+}
+
+.show-content {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

@@ -9,7 +9,7 @@ import { experience } from '../data';
 
 const Experience = () => {
   return (
-    <section id='experience'>
+    <section id='experience' className='hide-content min-h-full'>
       <div className='mx-auto px-10 py-20 container flex flex-col items-center '>
           <div className='mb-4 flex flex-col items-center text-center  md:mb-0 md:w-5/6 lg:w-2/3   lg:flex-grow  xl:pr-0'>
             <FaSuitcase size={50} color='white' className='mx-auto mb-4'/>

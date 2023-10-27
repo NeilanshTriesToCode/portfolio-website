@@ -38,7 +38,7 @@ const Skills = () => {
   });
 
   return (
-    <section id='skills'> 
+    <section id='skills' className='hide-content min-h-full'> 
       <div className='mx-auto px-10 py-20 container flex flex-col items-center'>
         <div className='mb-4 flex flex-col items-center text-center  md:mb-0  md:w-3/4  lg:flex-grow  xl:pr-0'>
           <RiCodeSSlashFill size={50} color='white' className='mx-auto mb-4'/>
