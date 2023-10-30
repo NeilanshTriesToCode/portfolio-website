@@ -51,7 +51,7 @@ function App() {
 
   // cleanup function for useEffect()
   return () => {
-    contents.forEach(content => observer.unobserve(content));
+    () => observer.disconnect();
   }
 
   }, []);

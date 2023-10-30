@@ -11,7 +11,8 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Poppins", ...defaultTheme.fontFamily.sans],
-
+        poppins: ["Poppins"],
+        blacksans: ["Black Han Sans"],
       },
     },
     
