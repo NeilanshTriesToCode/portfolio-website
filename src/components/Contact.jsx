@@ -30,8 +30,8 @@ const Contact = () => {
             </div>
 
             <div className='font-light text-xl text-white md:flex md:flex-row'>
-              <p>Ahmedabad, India |&nbsp;</p>
-              <p>Kelowna, BC, Canada</p>
+              <p>Ahmedabad, India &nbsp;|&nbsp;</p>
+              <p>&nbsp;Kelowna, BC, Canada</p>
             </div>
           </div>
 

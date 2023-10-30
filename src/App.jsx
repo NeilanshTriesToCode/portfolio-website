@@ -27,14 +27,14 @@ function App() {
           // check if an element is currently on the viewport or not
           if(entry.isIntersecting){
             // add class to unhide and unblur the element
-            //console.log('if', entry.target)
+            //console.log('if', entry.target.id)
             entry.target.classList.add('show-content');
           }
           else{
             // remove the class if the element is out of focus
             // i.e., entry.isIntersecting = false
             entry.target.classList.remove('show-content');
-            //console.log('else', entry.target)
+            //console.log('else', entry.target.id)
           }
         });
     });
