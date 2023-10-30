@@ -11,7 +11,7 @@ import { MdEmail, MdLocationOn } from 'react-icons/md';
 
 const Contact = () => {
   return (
-    <section id='contact' className='hide-content min-h-full'>
+    <section id='contact' className='hide-content'>
       <div className='mx-auto px-10 py-20 container flex flex-col items-center'>
         <div className='mb-4 flex flex-col items-center text-center  md:mb-0  md:w-1/2  lg:flex-grow  xl:pr-0'>
           <MdContacts size={50} color='white' className='mx-auto mb-4'/>
