@@ -58,10 +58,11 @@ export const experience = [
     location: 'Kelowna, BC, Canada',
     date: 'January 2022 - April 2022',
     description: [
-      'Interned as Learning Technologies Rover under the co-op program.',
-      'Assisted faculty members with using and troublshooting Learning Technologies used at the university.',
-      'Provided 1-to-1 support in-person, on call via Zoom or phone, or ServiceNow ticketing system.',
-      'Helped instructors ensure smooth delivery of lectures and course materials.',
+      'Worked at the university\'s Centre for Teaching and Learning as a Learning Technologies Rover.',
+      'Helped faculty members troubleshoot issues with Learning Technologies used at the university.',
+      'Delivered 1-on-1 technical support through in-person meetings, Zoom calls, phone, or the ServiceNow platform.',
+      'Collaborated with cross-functional teams and contributed to extensive projects.',
+      'Ensured seamless course delivery.',
     ]
   },
   {
@@ -72,9 +73,10 @@ export const experience = [
     location: 'Burnaby, BC, Canada',
     date: 'September 2021 - December 2021',
     description: [
-      'Interned as Full Stack Developer at a startup.',
-      'Helped develop the frontend user interface for a desktop app.',
-      'Used ReactJS and frameworks such as tailwindCSS, Rsuite for a better user experience.',
+      'Interned as Full Stack Developer at a tech startup.',
+      'Leveraged ReactJS to develop the frontend interface for a desktop app.',
+      'Employed frameworks such as tailwindCSS, Rsuite to enhance user experience.',
+      'Developed a 3D website using Muse to be presented to potential investors.',
       'Attended daily meetings with the supervisor to discuss the project, suggest ideas and receive feedback.',
     ]
   }
