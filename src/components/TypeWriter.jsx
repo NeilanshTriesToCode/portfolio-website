@@ -1,7 +1,7 @@
 // Component displaying text, with a Typing effect
 import React, { useState, useEffect, useRef } from 'react';
 
-const TypeWriter = ({text}) => {
+const TypeWriter = ({ text }) => {
     // state-variable for displaying the text
     const [currentText, setCurrentText] = useState('');
 
@@ -22,11 +22,26 @@ const TypeWriter = ({text}) => {
    useEffect(() => {
         const intervalID = setTimeout(() => {
             // update currentText at every interval
-            if(index.current < text.length - 1){
-                setCurrentText(current => current + text[index.current]);
+            if(index.current < text.length){
+               // capturing index.current in a new, temporary variable
+                /*
+                REASON -> CLOSURES
+                - Update state methods (setCurrentText() in this case) don't execute immediately and are scheduled.
+                - A new closure is created inside setCurrentText().
+                - So when setCurrentState() is executed, its closure may use the current value of index.current,
+                  rather than the value at the time setCurrentState() was called.
+                - Since then the value of index.current may have changed, and may not reflect the previous value.
+                - So to avoid using the updated value of index.current and to use the value of index.current at the time 
+                  setCurrentText() was called, store it in a temp variable.
+                - And then use that temp variable inside setCurrentText():
+                  setCurrentText(current => current + text[temp]) instead of setCurrentText(current => current + text[index.current])
+                */
+               const currentIndex = index.current;
+                setCurrentText(current => current + text[currentIndex]);
+                console.log(index.current, currentText)
             }
             index.current++;  
-        }, 300);
+        }, 100);
         
 
         // cleanup function to disconnect setTimeout()
