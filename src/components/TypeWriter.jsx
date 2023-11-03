@@ -38,10 +38,9 @@ const TypeWriter = ({ text }) => {
                 */
                const currentIndex = index.current;
                 setCurrentText(current => current + text[currentIndex]);
-                console.log(index.current, currentText)
             }
             index.current++;  
-        }, 100);
+        }, 85);
         
 
         // cleanup function to disconnect setTimeout()
