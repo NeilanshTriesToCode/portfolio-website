@@ -4,31 +4,23 @@
 @tailwind colors;
 
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 15px;
 }
 
 ::-webkit-scrollbar-track {
   background: rgb(15 23 42);
+  border: 1pt solid rgb(107 114 128);
   }
 
 ::-webkit-scrollbar-thumb {
   background: rgb(107 114 128);
   border-radius: 15px;
   }
-  
-header::-webkit-scrollbar {
-  display: none;
-}
 
-header{
-  overflow-y:hidden;
-}
-
-main{
-  //overflow-y:scroll
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(156 163 175);
 }
   
-
 .hide-content {
   transition: all 1.5s;
   opacity: 0;
