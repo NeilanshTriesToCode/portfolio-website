@@ -57,16 +57,18 @@ function App() {
   }, []);
 
   return (
-    <main className="text-gray-400 bg-slate-900 body-font font-sans">
+    <>
       <Navbar />
-      <About />
-      <Hobbies />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
-    </main>
-    
+      
+      <main className="text-gray-400 bg-slate-900 body-font font-sans ">
+        <About />
+        <Hobbies />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Contact />
+      </main>
+    </>
   )
 }
 

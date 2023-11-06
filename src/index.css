@@ -1,7 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind colors;
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(15 23 42);
+  border: 1pt solid rgb(107 114 128);
+  }
+
+::-webkit-scrollbar-thumb {
+  background: rgb(107 114 128);
+  border-radius: 15px;
+  }
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(156 163 175);
+}
+  
 .hide-content {
   transition: all 1.5s;
   opacity: 0;
@@ -14,7 +33,6 @@
   filter: blur(0);
   transform: translateY(0);
 }
-
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
