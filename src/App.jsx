@@ -59,6 +59,7 @@ function App() {
   return (
     <>
       <Navbar />
+      
       <main className="text-gray-400 bg-slate-900 body-font font-sans ">
         <About />
         <Hobbies />
