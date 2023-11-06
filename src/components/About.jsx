@@ -6,7 +6,7 @@ import TypeWriter from './TypeWriter';
 const About = () => {
 
   return (
-    <section id='about'  className='hide-content lg:min-h-[85vh]'>
+    <section id='about' className='hide-content lg:min-h-[85vh]'>
         <div className='mx-auto px-10 py-20 container flex flex-col items-center  md:flex-row '>
           <div className='mb-16 flex flex-col items-center text-center  md:pr-16 md:items-start md:text-left md:mb-0 md:w-1/2  lg:flex-grow lg:pr-24'>
           <h1 className='title-font font-blacksans font-medium text-white text-4xl md:text-5xl'>Hola,</h1>  
